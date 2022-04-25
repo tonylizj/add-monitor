@@ -1,0 +1,24 @@
+{
+  "classes": [
+    {
+      "class": {
+        "level": "under",
+        "sess": 1225,
+        "subject": "DAC",
+        "cournum": 204
+      },
+
+      "user": {
+        "guild": "478352853887614986",
+        "channel": "967183799949623336",
+        "user": "199315213726646272"
+      },
+
+      "options": {
+        "dm": true,
+        "cm": true,
+        "reserves": false
+      }
+    }
+  ]
+}
