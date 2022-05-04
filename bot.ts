@@ -150,7 +150,7 @@ const runQueries = async () => {
 client.once('ready', () => {
   console.log('Ready!');
 
-  const job = new cron.CronJob('00 */1 * * * *', runQueries);
+  const job = new cron.CronJob('00 */15 * * * *', runQueries);
   job.start();
 });
 
