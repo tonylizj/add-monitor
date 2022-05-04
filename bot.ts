@@ -104,6 +104,8 @@ const runQueries = async () => {
     // eslint-disable-next-line no-plusplus
     // eslint-disable-next-line no-restricted-syntax
     for (const sec of sections) {
+      // eslint-disable-next-line no-continue
+      if (!query.class.sections.includes(sec.section)) continue;
       if (query.options.reserves) {
         const embed = new MessageEmbed()
           .setColor(sec.open ? '#0099ff' : '#990044')
@@ -148,7 +150,7 @@ const runQueries = async () => {
 client.once('ready', () => {
   console.log('Ready!');
 
-  const job = new cron.CronJob('00 */15 * * * *', runQueries);
+  const job = new cron.CronJob('00 */1 * * * *', runQueries);
   job.start();
 });
 

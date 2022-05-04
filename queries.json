@@ -4,14 +4,17 @@
       "class": {
         "level": "under",
         "sess": 1225,
-        "subject": "DAC",
-        "cournum": 204
+        "subject": "CS",
+        "cournum": 458,
+        "sections": [
+          "LEC 001"
+        ]
       },
 
       "user": {
         "guild": "478352853887614986",
         "channel": "967183799949623336",
-        "user": "199315213726646272"
+        "user": "310066526772264972"
       },
 
       "options": {
