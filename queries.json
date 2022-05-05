@@ -7,7 +7,7 @@
         "subject": "CS",
         "cournum": 458,
         "sections": [
-          "LEC 001"
+          "LEC 002"
         ]
       },
 
@@ -20,7 +20,7 @@
       "options": {
         "dm": true,
         "cm": true,
-        "reserves": false
+        "reserves": true
       }
     }
   ]
